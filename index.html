@@ -22,11 +22,18 @@
 <link rel="stylesheet" href="https://github.com/necolas/normalize.css/blob/master/normalize.css">
 <link rel="stylesheet" href="main.css">
 <link rel='alternate' type='application/rss+xml' title='Coda' href="">
-</head>
-
 <body class=' is-home '>
 
   <!-- Google Analytics Code -->
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_G-V4D8B6D6TJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_TRACKING_ID');
+</script>
  <!------Google Search----------->
 
   <div class='js-off-canvas-container c-off-canvas-container'>
@@ -93,12 +100,10 @@
           </div>
         </div>
       </div>
-
       <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
         <span class='c-off-canvas-toggle__icon'></span>
       </label>
     </div>
-
   </div>
 
 </header>
@@ -393,4 +398,5 @@
   <script src="https://aspire-jekyll.aspirethemes.com/js/instafeed.min.js">               </script>
   <script src="https://aspire-jekyll.aspirethemes.com/js/app.js">                         </script>
 </body>
+</head>
 </html>
